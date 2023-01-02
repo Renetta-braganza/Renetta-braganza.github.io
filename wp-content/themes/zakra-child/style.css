@@ -1,0 +1,98 @@
+/*
+Theme Name: Zakra Child Theme
+Theme URI: http://themegrill.com/themes/zakra/
+Description: Child Theme for Zakra
+Author: ThemeGrill
+Author URI: http://themegrill.com
+Template: zakra
+Version: 1.0
+*/
+.custom-logo{
+	height: 75px;
+    width: auto;
+}
+.wp-image-1355{
+	    width: 230px;
+    height: auto;
+}
+#block-12{
+	margin-bottom:0px;
+}
+.tg-primary-menu > div ul li a {
+    color: #203165;
+}
+.main-navigation.tg-primary-menu > div > ul > li:hover > a, .tg-primary-menu > div ul li a:hover {
+    color: var( --e-global-color-primary );
+}
+.main-navigation.tg-primary-menu > div > ul li:active > a, .main-navigation.tg-primary-menu > div > ul > li.current_page_item > a, .main-navigation.tg-primary-menu > div > ul > li.current-menu-item > a {
+     color: var( --e-global-color-primary );
+}
+.tg-site-header, .tg-container--separate .tg-site-header,footer {
+    background-color: #e6e9ec;
+}
+.tg-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#wpcf7-f1304-p582-o1 p label{
+	color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+	width: 100%;
+}
+.contact-box{
+    min-height: 305px;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.project-box{
+	 padding: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.wpcf7-submit{
+    font-family: "Quicksand", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    fill: var( --e-global-color-primary ) !important;
+    color: var( --e-global-color-primary ) !important;
+    background-color: #FFFFFF00 !important;
+    border-style: solid !important;
+    border-radius: 0px 0px 0px 0px;
+}
+.wpcf7-submit:hover{
+color: var( --e-global-color-secondary ) !important;
+    background-color: var( --e-global-color-primary ) !important;
+}
+.serv-acc .elementor-widget-container .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active a {
+    color: #203165;
+}
+.serv-acc .elementor-widget-container .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active {
+    background-color: var( --e-global-color-primary );
+	color: #203165;
+}
+.serv-acc .elementor-widget-container .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title:hover {
+    color: #203165 !important;
+    background-color: var( --e-global-color-primary ) !important;
+}
+.serv-acc .elementor-widget-container .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title {
+    border-width: 0px;
+    margin-bottom: 12px;
+    border-color: transparent;
+    background-color: #203165;
+	    color: white;
+}
+.serv-acc .elementor-tabs{
+	column-gap: 20px;
+    border: none;
+}
+.serv-acc .elementor-tabs-content-wrapper{
+	    border: none;
+    
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.elementor-widget-tabs.elementor-tabs-view-vertical .elementor-tab-desktop-title.elementor-active:after, .elementor-widget-tabs.elementor-tabs-view-vertical .elementor-tab-desktop-title.elementor-active:before{
+	border: none !important;
+}
+.service-box:hover .elementor-icon-box-description {
+	color:#fff;
+}
